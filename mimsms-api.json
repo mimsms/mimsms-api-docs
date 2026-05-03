@@ -1,10 +1,11 @@
 {
   "info": {
-    "_postman_id": "c18ef428-5254-49b6-8220-cf19ed76bda8",
-    "name": "MiMSMS",
+    "_postman_id": "8e154036-2132-406c-985b-8128022f0263",
+    "name": "MiMSMS API",
     "description": "This collection covers the core SMS API endpoints provided by **MiMSMS** (`api.mimsms.com`). It is intended for developers and integrators working with the MiMSMS platform to send, manage, and monitor SMS messages programmatically.\n\n**Endpoints included:**\n\n- **Send SMS** – Send a single SMS message to one recipient via POST.\n- **Send One to Many** – Broadcast a single message to multiple recipients in one request.\n- **Send Dynamic SMS (DSMS)** – Send personalized/dynamic messages with variable content per recipient.\n- **Sent SMS (Query)** – Retrieve sent SMS records using query parameters via GET.\n- **Send One to Many (Query)** – Trigger a one-to-many send using query string parameters via GET.\n- **Check DLR** – Check the Delivery Report (DLR) status of a sent message.\n- **Balance Check** – Retrieve the current SMS credit balance for an account via POST.\n- **Balance Check (Query)** – Retrieve the SMS credit balance using query parameters via GET.\n- **Incoming SMS** – Pull inbound/incoming SMS messages received on the platform.\n\nBoth POST (JSON body) and GET (query string) variants are available for key operations, offering flexibility in integration approach.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "14759893"
+    "_exporter_id": "14759893",
+    "_collection_link": "https://go.postman.co/collection/14759893-8e154036-2132-406c-985b-8128022f0263?source=collection_link"
   },
   "item": [
     {
